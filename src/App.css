@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.image>img{
+  position: absolute;
+  height: 72px;
+  width: 285px;
+  left: 410px;
+  top: 26px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hello {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position:absolute;
+  list-style: none;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 30px;
+  padding: 20px;
+  gap: 30px;
+  left: 920px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+a:hover{
+  color: blue;
+}
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #F4CE14;
+}
+.hero{
+  position: absolute;
+  width: 1920px;
+  height: 374px;
+  left: 0px;
+  top: 120px;
+
+  background: #495E57;
+}
+.main{
+  position: absolute;
+  width: 374px;
+  height: 72px;
+  left: 410px;
+  top: 20px;
+
+
+  background-color: #495E57;
+}
+.location{
+  position: absolute;
+  width: 79px;
+  height: 24px;
+  left: 410px;
+  top: 120px;
+}
+h3{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detail{
+   position: absolute;
+  width: 300px;
+  height: 24px;
+  left: 410px;
+  top: 155px;
+}
+.btn{
+  position: absolute;
+  left: 410px;
+  top: 270px;
+}
+button{
+  background: #F4CE14;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0px;
+  border-radius: 17px;
+  width: 200px;
+  height: 62px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+  color: #F4CE14;
+  background-color: black;
+  cursor: pointer;
+}
+.photo>img{
+  position: absolute;
+width: 330px;
+height: 400px;
+right: 400px;
+top: 57px;
+border-radius: 16px;
 }
