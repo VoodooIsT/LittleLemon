@@ -102,3 +102,277 @@ right: 400px;
 top: 57px;
 border-radius: 16px;
 }
+.special{
+  position: absolute;
+  width: 413px;
+  height: 48px;
+  left: 410px;
+  top: 650px;
+}
+h2{
+  font-size: 40px;
+}
+.online{
+  position: absolute;
+  right: 400px;
+  top: 650px;
+
+}
+.online>button{
+  border-radius: 14px;
+}
+
+
+.art{
+ position: absolute;
+ width: 300px;
+ height: 417px;
+ left: 410px;
+ top: 775px;
+ justify-content: space-between;
+ background-color: rgb(206, 206, 206);
+ box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+.box{
+  position: absolute;
+  width: 300px;
+  height: 417px;
+  left: 820px;
+  top: 775px;
+  background-color: rgb(206, 206, 206);
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+ }
+ .call{
+  position: absolute;
+  width: 300px;
+  height: 417px;
+  right: 400px;
+  top: 775px;
+  background-color: rgb(206, 206, 206);
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+ }
+
+.greek>img{
+  position: absolute;
+  width: 300px;
+  height: 191px;
+  top: 0px;
+  border-radius: 16px;
+}
+.geektxt{
+  position: absolute;
+  width: 200px;
+  height: 21px;
+  left: 15px;
+  top: 200px;
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+}
+.ab{
+  position: absolute;
+  width: 275px;
+  height: 90px;
+  left: 14px;
+  top: 240px;
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+.del>img{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 250px;
+top: 380px;
+z-index: 1;
+}
+.order{
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  left: 15px;
+  top: 380px;;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.order:hover{
+  color: blue;
+  cursor: pointer;
+}
+.test{
+  text-align: center;
+  color: #F4CE14;
+  margin-top: 50px;
+  font-size: 40px;
+
+}
+.green{
+  position: absolute;
+width: 1920px;
+height: 580px;
+left: 0px;
+top: 1218px;
+
+background: #495E57;
+}
+.review1{
+  position: absolute;
+width: 230px;
+height: 200px;
+left: 410px;
+top: 200px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.review2{
+  position: absolute;
+width: 230px;
+height: 200px;
+left: 720px;
+top: 200px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.review3{
+position: absolute;
+width: 230px;
+height: 200px;
+left: 1010px;
+top: 200px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.review4{
+  position: absolute;
+width: 230px;
+height: 200px;
+right: 400px;
+top: 200px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+.person>img{
+position: absolute;
+width: 82px;
+height: 90px;
+left: 15px;
+top: 55px;
+z-index: 1;
+background: #D9D9D9;
+border: 0px solid #000000;
+border-radius: 4px;
+}
+h4{
+  z-index: 1;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+  font-size: 20px;
+}
+.revpara{
+  position: absolute;
+  left:5px;
+  top: 160px;
+  font-style: italic;
+  z-index: 1;
+  color: #000000;
+}
+.parentstar{
+  position: absolute;
+  z-index: 1;
+  left: 425px;
+  top: 210px;
+}
+.parentstar2{
+  position: absolute;
+  z-index: 1;
+  left: 760px;
+  top: 210px;
+}
+.parentstar3{
+  position: absolute;
+  z-index: 1;
+  left: 1080px;
+  top: 210px;
+}
+.parentstar4{
+  position: absolute;
+  z-index: 1;
+  left: 1310px;
+  top: 210px;
+}
+
+.bli>h1{
+  position: absolute;
+  left: 410px;
+  top: 1950px;
+  color: #000000;
+  font-size: 45px;
+}
+.bli>p{
+  color: #000000;
+  position: absolute;
+  left: 410px;
+  top: 2080px;
+  width: 472px;
+  height: 213px;
+  font-size: 20px;
+}
+.bli>h3{
+  color: #000000;
+  position: absolute;
+  left: 410px;
+  top: 2020px;
+}
+.chef>img{
+  position: absolute;
+  width: 252px;
+  height: 300px;
+  right: 500px;
+  top: 2084px;
+}
+.res>img{
+  position: absolute;
+  width: 252px;
+  height: 300px;
+  right: 374px;
+  top: 1983px;
+}
+.footerlogo>img{
+  position: absolute;
+  width: 150px;
+  height: auto;
+  top: 100px;
+  left: 410px;
+}
+.footers{
+  position: absolute;
+  left: 0px;
+  top: 2450px;
+  background-color: lightgray;
+  width: 1920px;
+  height: 475px;
+}
+.ft>ul{
+  position: absolute;
+  line-height: 50px;
+  left: 710px;
+  list-style: none;
+  top: 120px;
+}

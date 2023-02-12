@@ -1,0 +1,123 @@
+.App {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  fieldset {
+    display: flex;
+    width: 900px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color:#F4CE14 ;
+    flex-direction: column;
+    position: absolute;
+    top: 22%;
+    right: 23%;
+  }
+
+  label {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  sup {
+    color: red;
+    top: 2px;
+    font-size: 95%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  input,
+  select {
+    margin-left: 25%;
+    padding-top: 0%;
+    border-radius: 4px;
+    border: 0px solid #ccc;
+    height: 40px;
+    width: 428px;
+    box-shadow: 3px 3px 7px gray;
+    padding: 0 8px;
+    background-color: white;
+
+  }
+  
+  .vajra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    position: relative;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FieldError {
+    position: absolute;
+    bottom: 0px;
+    color: red;
+    font-size: 12px;
+    margin-left: 25%;
+  }
+  
+  .Row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.num {
+    margin-left: 25%;
+    margin-top: 1%;
+    padding: 18px;
+    width: 425px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: darkblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .num:disabled,
+  .num[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  .label{
+    color: white;
+    font-size: 20px;
+    margin-left: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+  fieldset>h2{
+    color: #16372c;
+  }
+  .book{
+    margin-left: 24%;
+    font-size: 60px;
+  }
+  section>img{
+    width: 100vw;
+    height: auto;
+    filter: blur(8px);
+    
+  }
