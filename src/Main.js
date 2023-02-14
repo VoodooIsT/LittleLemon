@@ -16,8 +16,20 @@ function AiFillStar(props) {
 
 
 
+
 const Main = () => {
     const navigate = useNavigate();
+ 
+
+    // const [availableTimes, setAvailableTimes] = useState("availableTimes");
+    //   function spendTime(props) {
+    //     setAvailableTimes(prevState => {
+    //         return {
+
+
+    //         }
+    //     });
+    //   }
   return (
     <>
     <section className='hero'>
