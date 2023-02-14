@@ -43,7 +43,7 @@
   }
 
 
-  select {
+  /* select { */
     /* display: block;
     margin-left: 22%;
     padding: 10px;
@@ -67,7 +67,7 @@
     margin-top: -10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 
-  }
+  /* } */
   input:hover{
     cursor: pointer;
   }
