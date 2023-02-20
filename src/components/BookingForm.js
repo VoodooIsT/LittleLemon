@@ -1,6 +1,6 @@
 import {useState} from "react";
 import "./Booking.css";
-import restaurant from "../restaurant.jpg"
+// import restaurant from "../restaurant.jpg"
 import Header from "../Header";
 import Footer from "../Footer";
 const GuestsErrorMessage = ({guests}) => {
@@ -14,7 +14,7 @@ const GuestsErrorMessage = ({guests}) => {
 
 function BookingForm({availableTimes, dispatch}) {
  const [chooseDate, setChooseDate] = useState("");
- const [guests, setGuests] = useState(1);
+ const [guests, setGuests] = useState();
  const [occasion, setOccasion] = useState("");
 
  const getIsFormValid = () => {
